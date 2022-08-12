@@ -1,13 +1,64 @@
 body {
-    background-color: #EAC926;
-    color: #666;
+    
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    width: 24px;
+header {
+    background-color: #EAC926;
+}
+.titulares { 
+    font-size: 24px;
+    color: #03264C;;
 }
 
-p {
-    width: 12px;
+#pago {
+    
+    color: #03264C;
+    text-align: center;
+    font-size: 16px;
+}
+
+.menu {
+    color:#ebebeb;
+    background-color: #1259c3;
+    width: 30px; height: 30px;
+    font-size: 50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+main {
+    background-color: #ebebeb;
+}
+.precios {
+    font-size: 18px;
+    color: #666;
+}
+.descuentos-descripciones {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.cuerpostexto {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer {
+    background-color: white;
+    
+}
+
+.icono {
+    left: 500px;
+    color: #03264C;
+    width: 50 px;
+   
 }
