@@ -1,14 +1,30 @@
 body {
     
     font-family: 'Roboto', sans-serif;
+
 }
 
+.buscador {
+    
+    font-size: 12px;
+    color: #666;
+
+}
+.hipervinculo {
+    color: #03264C;
+    size: 12px;
+    text-align: left;
+    cursor: pointer;
+    background-color: #EAC926;
+    border: none;
+
+}
 header {
     background-color: #EAC926;
 }
 .titulares { 
     font-size: 24px;
-    color: #03264C;;
+    color: #03264C;
 }
 
 #pago {
@@ -18,16 +34,21 @@ header {
     font-size: 16px;
 }
 
-.menu {
+.burger-menu {
     color:#ebebeb;
     background-color: #1259c3;
     width: 30px; height: 30px;
     font-size: 50;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
-   
+    cursor: pointer;  
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
 }
+
+
 main {
     background-color: #ebebeb;
 }
@@ -38,6 +59,7 @@ main {
 .descuentos-descripciones {
     font-size: 16px;
     color: #39b54a;
+    cursor: pointer;
 }
 
 .cuerpostexto {
@@ -57,8 +79,10 @@ main {
 }
 
 .icono {
-    left: 500px;
-    color: #03264C;
-    width: 50 px;
-   
+    
+    color: #1259c3;;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
 }
