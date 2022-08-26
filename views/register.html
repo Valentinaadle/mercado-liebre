@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Registrate </title>
+        
+        <link href= "/css/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            rel="stylesheet">
+        <link rel="icon"  href="https://http2.mlstatic.com/static/org-img/homesnw/mercado-libre.png?v=2"  style="width: 16px; height: 16px;">
+        <script src="https://kit.fontawesome.com/edeb1fef90.js" crossorigin="anonymous"></script>
+
+    
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="top-header">
+                <div class="main-logo"> 
+                    <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+                </div>
+                <div class="form" action="#" method="GET">
+                    <div class="input">Buscar productos, marcas y más</div>
+                    <div class="submit"><i class="fa fa-search"></i></div>
+                </div>
+                
+            </div>
+
+        </header>
+
+        <main>
+            <form action="/registro" method="POST">
+
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="user">Nombre de usuario:</label>
+                <input type="text" name="text" id="user" minlength="6" maxlength="15">
+
+                <label for="date">Fecha de Nacimiento:</label>
+                <input type="text" name="date" id="date">
+
+                <label for="home-adress">Domicilio:</label>
+                <input type="text"  name="home-adress" id="home-adress">
+
+                <label for="user-profile">Perfil del usuario:</label>
+
+                <label for="user-profile">Comprador</label>
+                <input type="radio"  name="user-profile" id="user-profile" value="Comprador">
+
+                <label for="user-profile">Vendedor</label>
+                <input type="radio"  name="user-profile" id="user-profile" value="Vendedor">
+
+                <label for="interests">Categorías de interés:</label>
+
+                <label for="interests">Electro</label>
+                <input type="checkbox" name="interests" value="electro">
+
+                <label for="interests">Moda</label>
+                <input type="checkbox" name="interests" value="Moda">
+
+                <label for="interests">Hogar</label>
+                <input type="checkbox" name="interests" value="Hogar">
+
+                <label for="interests">Juguetería</label>
+                <input type="checkbox" name="interests" value="Juguetería">
+
+                <label for="interests">Vida sana</label>
+                <input type="checkbox" name="interests" value="Vida-sana">
+
+                <label for="avatar">Selecciona una imagen para el perfil:</label>
+                <input type="file" name="avatar" accept=".jpg" multiple>
+
+                <label for="password">Crea tu contrseña:</label>
+                <input type="password" name="password">
+
+                <label for="password">Confirma tu contrseña:</label>
+                <input type="password" name="password" minlength="8" maxlength="20">
+
+                <button type="reset">Borrar todos los datos</button>
+                <button type="submit">Enviar <a href="/home"></a></button>
+
+
+            </form>
+
+            
+        </main>
+        
