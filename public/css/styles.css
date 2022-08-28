@@ -248,6 +248,8 @@ propiedades de flexbox*/
     font-size: 22px;
     color: #39b54a;
     transition: all 450ms;
+    margin-top: 7%;
+    margin-bottom: 5%;
     }
 
 
@@ -626,6 +628,11 @@ main div.products:hover > .product-description{
 .footer {
     
     display: flex;
+    }
+
+.footer-text {
+
+    font-size: 10px;
     }
 
 /*Estilos del Register*/
