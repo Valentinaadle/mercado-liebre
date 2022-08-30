@@ -18,7 +18,6 @@ body {
 header { 
 
     background-color: #EAC926;
-    width: 90%;
     padding-bottom: 3%;
     }
     
@@ -125,7 +124,7 @@ ul {
 
 .banner {
 
-    width: 90%;
+    width: 100%;
     }
 
 /*Main del Home*/
@@ -135,7 +134,7 @@ main {
     background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     
     }
 
@@ -267,7 +266,7 @@ main div.offers {
 .footer {
 
     background-color: white;
-    width: 90%;
+    width: 100%;
     margin-bottom: 5%;
     margin-top: 5%;
     text-align: center;
@@ -407,7 +406,7 @@ form.register-form {
 
     background-color: #ebebeb;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     
     }
 
