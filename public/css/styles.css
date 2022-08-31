@@ -18,6 +18,7 @@ body {
 header { 
 
     background-color: #EAC926;
+    width: 98%;
     padding-bottom: 3%;
     }
     
@@ -134,7 +135,7 @@ main {
     background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 98%;
     
     }
 
@@ -261,12 +262,12 @@ main div.offers {
     justify-content: space-evenly;
     }
 
-    /*Footer del Home*/
+    /* del Home*/
 
 .footer {
 
     background-color: white;
-    width: 100%;
+    width: 98%;
     margin-bottom: 5%;
     margin-top: 5%;
     text-align: center;
@@ -308,7 +309,7 @@ main div.offers {
     background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 98%;
     justify-content: center;
     
     }
