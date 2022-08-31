@@ -587,6 +587,12 @@ ul {
     font-weight: bolder;
     }
 
+.banner {
+
+    display: block;
+    width: 98%;
+    }
+
 /*Main del Home*/
 
 .tittles {
